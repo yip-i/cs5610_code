@@ -6,7 +6,24 @@ body {
 .navmenu{
     background-color: lightblue;
     text-align: center;
+    max-width: 1500px;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid black;
+
 }
+
+.menu-items {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+  }
 
 .h1index{
     font-family: "Montserrat",sans-serif;
